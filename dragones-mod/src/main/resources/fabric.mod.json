@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dragones",
+  "version": "${version}",
+  "name": "Dragones",
+  "description": "Dragones domesticables de distintos tamaños.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.dragones.DragonesMod"],
+    "client": ["com.dragones.client.DragonesModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
